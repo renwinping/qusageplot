@@ -35,7 +35,9 @@ thus making it easy to make out when used to be icons.
 the rest of everything will be hanled automatically to match the border color.
 
 ### Sample code for setting up 
+
 Following the code below
+
 ```cpp
     // setup cpu usage plot
 	ui.widget->setPlotName("CPU Utilization %");
@@ -48,7 +50,9 @@ Following the code below
 	for (int i = 0; i < 60; i++)
 		ui.widget->addData(qrand() % 99);
 ```
+
 Gives us output like
+
 ![#2](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/2.png)
 
 ### Screenshots
