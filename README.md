@@ -56,9 +56,8 @@ Gives us output like
 ![#2](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/2.png)
 
 ### Screenshots
-![#1]
-
 ![#3](https://github.com/RyanWangGit/TaskManager/raw/master/Screenshots/2.png)
+
 Used in [TaskManager](https://github.com/RyanWangGit/TaskManager).
 
 ### Libraries
