@@ -38,7 +38,7 @@ are set to be gray and `Arial` is used.
 thus making it easy to make out when used to be icons.
 
 `QUsagePlot::setThemeColor` is used to set the theme color, the input should be the color of the border,
-the rest of everything will be hanled automatically to match the border color.
+the rest of everything will be handled automatically to match the border color.
 
 ### Add real-time data
 Data is added via `QUsagePlot::addData(double data)`, by calling this method, `data` is added to
