@@ -17,6 +17,7 @@ If you're using `Visual Studio`, remember to check the `Print Support` checkbox 
 Now you're free to use anything that `QCustomPlot` provides you with, `QUsagePlot` is simply adding more methods to 
 help you set up and draw real-time usage graph easilier.
 
+### Set up the widget
 ![#1](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/1.png)
 
 Basically there are four labels at the cornors, 
@@ -33,6 +34,15 @@ thus making it easy to make out when used to be icons.
 
 `QUsagePlot::setThemeColor` is used to set the theme color, the input should be the color of the border,
 the rest of everything will be hanled automatically to match the border color.
+
+### Add real-time data
+Data is added via `QUsagePlot::addData(double data)`, by calling this method, `data` is added to
+the tail of the real-time data sequence, the head of the sequence is removed, if the size of it
+is larger than what we previously set via `QUsagePlot::setMaximumTime`.
+
+You can simply call this method multiple times to add a set of data but the common use of it
+is to call it repeatedly, like, connect a slot to `QTimer::timeout` signal, in the slot, do some 
+data processing and call `QUsagePlot::addData`, thus making it a real-time plotting tool.
 
 ### Sample code for setting up 
 
