@@ -1,6 +1,5 @@
 # QUsagePlot
-###### By : Ryan Wang @ HUST
-###### Email : wangyuxin@hust.edu.cn
+
 Real-time Usage Plotting Tool For `Qt` Based On `QCustomPlot` Library.
 
 It was originally built for [TaskManager](https://github.com/RyanWangGit/TaskManager), and I split it out to use in other projects.
