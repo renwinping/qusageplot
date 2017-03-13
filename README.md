@@ -19,16 +19,16 @@ help you set up and draw real-time usage graph easilier.
 ### Set up the widget
 ![#1](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/1.png)
 
-Basically there are four labels at the cornors,
+Basically there are four labels at the cornors:
 
-Use `QUsagePlot::setPlotName` to set the top-left label.
+- Use `QUsagePlot::setPlotName` to set the top-left label.
 
-Use `QUsagePlot::setMaximumTime` to set maximum time the bottom-left label.
+- Use `QUsagePlot::setMaximumTime` to set maximum time the bottom-left label.
 
-Use `QUsagePlot::setUsageUnit` and `QUsagePlot::setMaximumUsage` to set the maximum usage the top-right label,
+- Use `QUsagePlot::setUsageUnit` and `QUsagePlot::setMaximumUsage` to set the maximum usage the top-right label,
 The bottom-right label is always set to `0`.
 
-Use `QUsagePlot::setTimeUnit` to set tiem unit, by default, "Sec" is used.
+- Use `QUsagePlot::setTimeUnit` to set the unit, by default, "Sec" is used.
 
 Label's font and color can be set via `QUsagePlot::setLabelFont` and `QUsagePlot::setLbaelColor`, by default, the four labels
 are set to be gray and `Arial` is used.
