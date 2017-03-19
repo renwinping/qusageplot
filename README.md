@@ -79,4 +79,4 @@ Used in [TaskManager](https://github.com/RyanWangGit/TaskManager).
  * `QCustomPlot` library.
 
 ### License
- GPLv3.
+[GPLv3](https://github.com/RyanWangGit/QUsagePlot/blob/master/LICENSE).
