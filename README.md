@@ -53,16 +53,16 @@ data processing and call `QUsagePlot::addData`, thus making it a real-time plott
 Following the code below
 
 ```cpp
-    // setup cpu usage plot
-	ui.widget->setPlotName("CPU Utilization %");
-	ui.widget->setMaximumTime(60);
-	ui.widget->setMaximumUsage(100);
-	ui.widget->setUsageUnit("%");
-	ui.widget->setThemeColor(QColor(17, 125, 187));
+// setup cpu usage plot
+ui.widget->setPlotName("CPU Utilization %");
+ui.widget->setMaximumTime(60);
+ui.widget->setMaximumUsage(100);
+ui.widget->setUsageUnit("%");
+ui.widget->setThemeColor(QColor(17, 125, 187));
 
-	// simulate data
-	for (int i = 0; i < 60; i++)
-		ui.widget->addData(qrand() % 99);
+// simulate data
+for (int i = 0; i < 60; i++)
+  ui.widget->addData(qrand() % 99);
 ```
 
 Gives us output like
