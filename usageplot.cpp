@@ -98,6 +98,8 @@ void UsagePlot::setMaximumUsage(double max)
     // set axis range
     yAxis->setRange(0, max);
     yAxis2->setRange(0, max);
+    QString unit = cornorLabel[TopRight]->text().split(' ', QString::SkipEmptyParts)[1];
+    cornorLabel[TopRight]->setText(QString("%1 %2").arg(max).arg(unit));
 }
 
 void UsagePlot::setThemeColor(const QColor &themeColor, unsigned int scale)
