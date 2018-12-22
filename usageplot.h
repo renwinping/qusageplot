@@ -1,5 +1,5 @@
 #pragma once
-#include "stable.h"
+#include "qcustomplot.h"
 
 class UsagePlot : public QCustomPlot
 {

@@ -1,4 +1,4 @@
-#include "stable.h"
+#include "qcustomplot.h"
 #include "usageplot.h"
 
 void UsagePlot::resizeEvent(QResizeEvent *event)
