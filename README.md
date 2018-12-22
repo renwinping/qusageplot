@@ -17,7 +17,8 @@ Now you're free to use anything that `QCustomPlot` provides you with, `QUsagePlo
 help you set up and draw real-time usage graph easilier.
 
 ### Set up the widget
-![#1](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/1.png)
+
+<img src="https://github.com/RyanWangGit/qusageplot/raw/master/screenshots/1.png" width="50%" />
 
 Basically there are four labels at the cornors:
 
@@ -67,10 +68,10 @@ for (int i = 0; i < 60; i++)
 
 Gives us output like
 
-![#2](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/2.png)
+<img src="https://github.com/RyanWangGit/qusageplot/raw/master/screenshots/2.png" width="50%" />
 
 ### Screenshots
-<img src="https://github.com/RyanWangGit/TaskManager/raw/master/screenshots/2.png" width="50%" />
+<img src="https://github.com/RyanWangGit/task-manager/raw/master/screenshots/2.png" width="50%" />
 
 Used in [task-manager](https://github.com/RyanWangGit/task-manager).
 
