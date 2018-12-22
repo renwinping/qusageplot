@@ -2,18 +2,18 @@
 
 Real-time Usage Plotting Tool For `Qt` Based On `QCustomPlot` Library.
 
-It was originally built for [TaskManager](https://github.com/RyanWangGit/TaskManager), and I split it out to use in other projects.
+It was originally built for [task-manager](https://github.com/RyanWangGit/task-manager), and I split it out to use in other projects.
 
 Add more useful methods in `QCustomPlot` to fit in the need to plot real-time usage graph.
 
 ### How to start
 Since the class `QUsagePlot` is the subclass of `QCustomPlot`, it has the same way to set up and use `QUsagePlot`.
 
-Follow up the tutorial of `QCustomPlot` [here](http://www.qcustomplot.com/index.php/tutorials/settingup), 
+Follow up the tutorial of `QCustomPlot` [here](http://www.qcustomplot.com/index.php/tutorials/settingup),
 however instead of promoting your own widget to `QCustomPlot`, promote it to `QUsagePlot`, remember to add `printsupport` to your `.pro` file,
 If you're using `Visual Studio`, remember to check the `Print Support` checkbox in `Qt Project Settings -> Qt Modules`.
 
-Now you're free to use anything that `QCustomPlot` provides you with, `QUsagePlot` is simply adding more methods to 
+Now you're free to use anything that `QCustomPlot` provides you with, `QUsagePlot` is simply adding more methods to
 help you set up and draw real-time usage graph easilier.
 
 ### Set up the widget
@@ -45,10 +45,10 @@ the tail of the real-time data sequence, the head of the sequence is removed, if
 is larger than what we previously set via `QUsagePlot::setMaximumTime`.
 
 You can simply call this method multiple times to add a set of data but the common use of it
-is to call it repeatedly, like, connect a slot to `QTimer::timeout` signal, in the slot, do some 
+is to call it repeatedly, like, connect a slot to `QTimer::timeout` signal, in the slot, do some
 data processing and call `QUsagePlot::addData`, thus making it a real-time plotting tool.
 
-### Sample code for setting up 
+### Sample code for setting up
 
 Following the code below
 
@@ -70,13 +70,9 @@ Gives us output like
 ![#2](https://github.com/RyanWangGit/QUsagePlot/raw/master/Screenshots/2.png)
 
 ### Screenshots
-![#3](https://github.com/RyanWangGit/TaskManager/raw/master/Screenshots/2.png)
+<img src="https://github.com/RyanWangGit/TaskManager/raw/master/screenshots/2.png" width="50%" />
 
-Used in [TaskManager](https://github.com/RyanWangGit/TaskManager).
-
-### Libraries
- * `QT 5.5.1 for linux`
- * `QCustomPlot` library.
+Used in [task-manager](https://github.com/RyanWangGit/task-manager).
 
 ### License
 [GPLv3](https://github.com/RyanWangGit/QUsagePlot/blob/master/LICENSE).
