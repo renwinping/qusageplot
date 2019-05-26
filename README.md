@@ -2,7 +2,7 @@
 
 Real-time Usage Plotting Tool For `Qt` Based On `QCustomPlot` Library.
 
-It was originally built for [taskmanager](https://github.com/yxwangcs/taskmanager), and I split it out to use in other projects.
+It was originally built for [taskmanager](https://github.com/yxwangcs/taskmanager/tree/v1.0-qt-based), and I split it out to use in other projects.
 
 Add more useful methods in `QCustomPlot` to fit in the need to plot real-time usage graph.
 
@@ -70,8 +70,8 @@ Gives us output like
 
 <img src="https://github.com/yxwangcs/qusageplot/raw/master/screenshots/2.png" width="50%" />
 
-### Screenshots for [taskmanager](https://github.com/yxwangcs/taskmanager)
-<img src="https://github.com/yxwangcs/taskmanager/raw/master/screenshots/2.png" width="50%" />
+### Screenshots for [taskmanager](https://github.com/yxwangcs/taskmanager/tree/v1.0-qt-based)
+<img src="https://github.com/yxwangcs/taskmanager/blob/v1.0-qt-based/screenshots/2.png?raw=true" width="50%" />
 
 ### License
 [GPLv3](https://github.com/yxwangcs/qusageplot/blob/master/LICENSE).
