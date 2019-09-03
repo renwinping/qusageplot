@@ -1,8 +1,8 @@
-# QUsagePlot
+# QUsagePlot [![Build Status](https://travis-ci.com/yxwangcs/qusageplot.svg?branch=master)](https://travis-ci.com/yxwangcs/qusageplot)
 
 Real-time Usage Plotting Tool For `Qt` Based On `QCustomPlot` Library.
 
-It was originally built for [taskmanager](https://github.com/yxwangcs/taskmanager/tree/v1.0-qt-based), and I split it out to use in other projects.
+It was originally built for [taskmanager](https://github.com/yxwangcs/taskmanager/tree/v1.0-qt-based), and I split it out to be used in other projects.
 
 Add more useful methods in `QCustomPlot` to fit in the need to plot real-time usage graph.
 
