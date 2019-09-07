@@ -32,10 +32,10 @@ The bottom-right label is always set to `0`.
 - Use `QUsagePlot::setTimeUnit` to set the unit, by default, "Sec" is used.
 
 Label's font and color can be set via `QUsagePlot::setLabelFont` and `QUsagePlot::setLbaelColor`, by default, the four labels
-are set to be gray and `Arial` is used.
+are set to be gray and `Arial` is the default font.
 
 `QCustomPlot::toPixmap` is re-designed to leave out grid and bolden the borders when taking a snapshot,
-thus making it easy to make out when used to be icons.
+thus making it easy to distinguish when being used as icons.
 
 `QUsagePlot::setThemeColor` is used to set the theme color, the input should be the color of the border,
 the rest of everything will be handled automatically to match the border color.
